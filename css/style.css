@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'PT Serif';
+    src: local('PT Serif'), local('PTSerif-Regular'), url('ptserif.woff2') format('woff2'), url('ptserif.woff') format('woff'), url('ptserif.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+.header-background {
+    background-image: url('../img/background.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 50rem;
+}
+
+.nav-item {
+    /* font-family: 'PT Serif'; */
+    font-size: 1rem;
+    font-weight: normal;
+    /* font-weight: 900; */
+    text-transform: uppercase;
+}
+
+.navbar-nav li a {
+    /* line-height: 50px; */
+    margin-top: 1rem;
+}
+
+.btn-danger {
+    background-color: red !important;
+}
